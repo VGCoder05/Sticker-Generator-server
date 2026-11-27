@@ -22,9 +22,6 @@
     "jspdf": "^2.5.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-basic-ssl": "^1.2.0",
-    "concurrently": "^9.1.2",
     "nodemon": "^3.1.9",
-    "vite": "^6.0.7"
   }
 }
