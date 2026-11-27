@@ -5,8 +5,8 @@
   "description": "Dynamic sticker generation and management system",
   "type": "module",
 "scripts": {
-  "dev": "nodemon index.js",
-  "start": "node index.js",
+  "dev": "nodemon app.js",
+  "start": "node app.js",
   "test": "node --test"
 },
   "dependencies": {
