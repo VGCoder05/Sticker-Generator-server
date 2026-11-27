@@ -4,15 +4,11 @@
   "private": true,
   "description": "Dynamic sticker generation and management system",
   "type": "module",
-  "scripts": {
-          "dev": "vite",
-    "server": "nodemon server/index.js",
-    "dev:client": "vite --config vite.config.js",
-    "build": "vite build --config vite.config.js",
-    "start": "node server/index.js",
-    "test": "node --test",
-    "migrate:variant-index": "node server/scripts/dropVariantUniqueIndex.js"
-  },
+"scripts": {
+  "dev": "nodemon index.js",
+  "start": "node index.js",
+  "test": "node --test"
+},
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
